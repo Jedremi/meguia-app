@@ -1,0 +1,47 @@
+{
+  "onboarding": {
+    "slide1": {
+      "title": "Plan Your Trips",
+      "description": "Find the best personalized routes for your travel style"
+    },
+    "slide2": {
+      "title": "Discover Amazing Places",
+      "description": "Access exclusive accommodation and attraction recommendations"
+    },
+    "slide3": {
+      "title": "Share Your Experiences",
+      "description": "Save and share your itineraries with other travelers"
+    },
+    "skip": "Skip",
+    "next": "Next",
+    "done": "Get Started"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete"
+  },
+  "auth": {
+    "welcome": "Welcome to MeGuia",
+    "login": "Log In",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?"
+  },
+  "trip": {
+    "origin": "Origin",
+    "destination": "Destination",
+    "departure": "Departure",
+    "return": "Return",
+    "travelers": "Travelers",
+    "adults": "Adults",
+    "children": "Children",
+    "pets": "Pets",
+    "search": "Search Routes"
+  }
+}

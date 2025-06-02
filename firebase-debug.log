@@ -1,0 +1,20 @@
+[debug] [2025-05-19T12:12:44.535Z] ----------------------------------------------------------------------
+[debug] [2025-05-19T12:12:44.538Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\55549\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-05-19T12:12:44.538Z] CLI Version:   14.4.0
+[debug] [2025-05-19T12:12:44.538Z] Platform:      win32
+[debug] [2025-05-19T12:12:44.538Z] Node Version:  v20.15.1
+[debug] [2025-05-19T12:12:44.538Z] Time:          Mon May 19 2025 09:12:44 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-05-19T12:12:44.538Z] ----------------------------------------------------------------------
+[debug] 
+[error] 
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
+[debug] [2025-05-19T12:12:45.042Z] Error: EBUSY: resource busy or locked, unlink 'C:\Users\55549\Downloads\meguia-app\firebase-debug.log'
+    at Object.unlinkSync (node:fs:1884:11)
+    at process.<anonymous> (C:\Users\55549\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\cli.js:44:16)
+    at process.emit (node:events:531:35)
+    at process.exit (node:internal/process/per_thread:185:15)
+    at Timeout._onTimeout (C:\Users\55549\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

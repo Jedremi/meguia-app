@@ -1,0 +1,47 @@
+{
+  "onboarding": {
+    "slide1": {
+      "title": "Planeje suas viagens",
+      "description": "Encontre os melhores roteiros personalizados para seu estilo de viagem"
+    },
+    "slide2": {
+      "title": "Descubra lugares incríveis",
+      "description": "Acesse recomendações exclusivas de hospedagem e atrações"
+    },
+    "slide3": {
+      "title": "Compartilhe suas experiências",
+      "description": "Salve e compartilhe seus roteiros com outros viajantes"
+    },
+    "skip": "Pular",
+    "next": "Próximo",
+    "done": "Começar"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "retry": "Tentar Novamente",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Salvar",
+    "delete": "Excluir"
+  },
+  "auth": {
+    "welcome": "Bem-vindo ao MeGuia",
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgot_password": "Esqueceu a senha?"
+  },
+  "trip": {
+    "origin": "Origem",
+    "destination": "Destino",
+    "departure": "Ida",
+    "return": "Volta",
+    "travelers": "Viajantes",
+    "adults": "Adultos",
+    "children": "Crianças",
+    "pets": "Pets",
+    "search": "Buscar Roteiros"
+  }
+}
