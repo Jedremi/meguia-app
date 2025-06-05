@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
-import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../services/firebaseAuth';  // ajuste o caminho conforme seu projeto
+import { loginUser } from '../../services/firebaseService';
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -9,7 +8,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      await signInWithEmailAndPassword(auth, email, senha);
+      await loginUser(email, senha);
       navigation.reset({
         index: 0,
         routes: [{ name: 'Main' }],

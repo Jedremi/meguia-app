@@ -22,7 +22,7 @@ const WelcomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image 
-        source={require('../../assets/images/logomeguia.png')} 
+        source={require('../../assets/images/4.png')} 
         style={styles.logo}
       />
       <Text style={styles.title}>Bem-vindo ao MeGuia</Text>
@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
   },
   logo: {
-    width: 150,
-    height: 150,
+    width: 500,
+    height: 500,
     marginBottom: 30,
   },
   title: {

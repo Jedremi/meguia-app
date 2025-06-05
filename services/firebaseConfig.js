@@ -4,7 +4,7 @@ import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAKHu-YPsyruOPsOKr0mrVWok1U5cwn_6M",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "meguia-3d239.firebaseapp.com",
   databaseURL: "https://meguia-3d239-default-rtdb.firebaseio.com",
   projectId: "meguia-3d239",

@@ -21,6 +21,7 @@ import {
 import { captureRef } from 'react-native-view-shot';
 import * as Sharing from 'expo-sharing';
 import { TravelContext } from '../../contexts/TravelContext';
+import { db, rtdb } from '../../services/firebaseConfig';
 
 const TripDetailsScreen = ({ route, navigation }) => {
   const { trip } = route.params;

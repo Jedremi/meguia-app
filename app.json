@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "8f949c65-07aa-4ae6-945b-b887946194d7"
+      }
+    },
+    "android": {
+      "package": "com.jedremi.meguiaapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.jedremi.meguiaapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}

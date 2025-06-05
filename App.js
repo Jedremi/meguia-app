@@ -15,6 +15,8 @@ import TripsScreen from './components/screens/TripsScreen';
 import ProfileScreen from './components/screens/ProfileScreen';
 import TripDetailsScreen from './components/screens/TripDetailsScreen';
 import OnboardingScreen from './components/screens/OnboardingScreen';
+import ResultsScreen from './components/screens/ResultsScreen';
+import LoginScreen from './components/screens/LoginScreen';
 
 // Context
 import { TravelProvider } from './contexts/TravelContext';
@@ -67,7 +69,7 @@ export default function App() {
         <NavigationContainer>
           <StatusBar style="dark" />
           <Stack.Navigator
-            initialRouteName="Welcome"
+            initialRouteName="Onboarding"
             screenOptions={{
               headerTitleAlign: 'center',
               headerShadowVisible: false,
@@ -75,10 +77,12 @@ export default function App() {
               contentStyle: { backgroundColor: '#fff' },
             }}
           >
-            <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
-            <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Cadastro', headerBackTitle: '' }} />
             <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false }} />
+            <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
+            <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Cadastro', headerBackTitle: '' }} />          
             <Stack.Screen name="Main" component={MainTabs} options={{ headerShown: false }} />
+            <Stack.Screen name="Results" component={ResultsScreen} />
+            <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Login' }} />
             <Stack.Screen 
               name="TripDetails" 
               component={TripDetailsScreen} 

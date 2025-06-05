@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import { TravelContext } from "../../contexts/TravelContext";
+import { db, rtdb } from '../../services/firebaseConfig';
+
 
 const TripsScreen = ({ navigation, route }) => {
   const { 
