@@ -35,3 +35,9 @@ expo start
 >
   <Text>Salvar</Text>
 </TouchableOpacity>
+
+![ChatGPT Image 1 de jun  de 2025, 11_15_36](https://github.com/user-attachments/assets/5f16e5ad-ae27-4d7d-bc6b-92b89980fb2f)
+
+
+
+
